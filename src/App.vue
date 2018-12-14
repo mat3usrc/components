@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld/>
+  <Curso/>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Curso from "./components/Curso";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Curso
   },
   data() {
     return {
