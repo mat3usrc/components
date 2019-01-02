@@ -1,14 +1,14 @@
 <template>
-  <Curso/>
+  <Player/>
 </template>
 
 <script>
-import Curso from "./components/Curso";
+import Player from "./components/Player";
 
 export default {
   name: "App",
   components: {
-    Curso
+    Player
   },
   data() {
     return {
